@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>盗墓笔记</title>
+	<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/dmbj.css">
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="wrap clearfix">
+			<div class="header-logo">
+				<a href="#"><img src="image/logo(1).png" alt=""></a>
+			</div>
+			<div class="header-pic">
+					<img src="image/183515420.png" alt="">
+					<div class="header-bigpic">
+						<a href="#"><img src="image/183535645.png" alt=""></a>
+					</div>
+			</div>
+			<div class="header-fr">
+				<div class="header-list">
+					<ul>
+						<li><a href="#" id="enter">登录</a>
+						</li>
+						<li class="line"></li>
+						<li><a href="javascript:;" id="login">注册</a>
+							<div class="hidden-login" id="show_login">
+								<div class="login-page">
+									<div class="page-top">
+										<span>账号注册</span>
+										<a href="javascript:;" id="login_close"></a>
+									</div>
+									<div class="page-content">
+										<div class="content-logo"></div>
+										<form  action="" method="">
+											<label for="login_txt">输入账号：</label><input type="text" id="login_txt" placeholder="请输入账号"  required="required" ><br>
+											<label for="login_txt2">输入密码：</label>
+											<input type="password" id="login_txt2" placeholder="请输入密码"  required="required" ><br>
+											<label for="login_txt3">确认密码：</label>
+											<input type="password" id="login_txt3" placeholder="请确认密码"  required="required" >
+											 
+											<input type="button" id="login_btn" class="btn"   value="注&nbsp;&nbsp;册" /> 
+										</form>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="line"></li>
+						<li><a href="#">充值</a></li>
+						<li class="line"></li>
+						<li><a href="#">客服</a></li>
+						<li class="line"></li>
+						<li>
+							<a href="#">收藏</a>
+							<span></span>
+							<div class="list-collection">
+								<span>收藏<i></i></span>
+								<ul>
+									<li><a href="#">设为首页</a></li>
+									<li><a href="#">收藏本站</a></li>
+									<li><a href="#">放于桌面</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="header-game">
+					<a href="#"><i></i>游族游戏</a>
+					<div class="header-type">
+						<a href="#"><img src="image/183354055.jpg" alt=""></a>
+						<div class="type-game">
+							<ul class="clearfix">
+								<li>
+									<h2>网页游戏</h2>
+									<div class="game-list">
+										<a href=""><span>盗墓笔记</span><i class="list-n"></i></a>
+										<a href=""><span>三十六计</span><i class="list-n"></i></a>
+										<a href=""><span>刀剑乱舞-ONLINE-</span><i class="list-n"></i></a>
+										<a href=""><span>大青云</span><i class="list-n"></i></a>
+										<a href=""><span>大皇帝</span><i class="list-h"></i></a>
+										<a href=""><span>女神联盟2</span><i class="list-h"></i></a>
+										<a href=""><span>女神联盟</span><i class="list-h"></i></a>
+										<a href=""><span>大将军</span></a>
+										<a href=""><span>大侠传</span></a>
+									</div>
+								</li>
+								<li>
+									<h2>手机游戏</h2>
+									<div class="game-list">
+										<a href=""><span>少年三国志</span><i class="list-h"></i></a>
+										<a href=""><span>狂暴之翼</span><i class="list-n"></i></a>
+										<a href=""><span>刀剑乱舞-ONLINE-</span><i class="list-n"></i></a>
+										<a href=""><span>少年西游记</span><i class="list-n"></i></a>
+										<a href=""><span>西游女儿国</span><i class="list-n"></i></a>
+										<a href=""><span>大皇帝OL</span><i class="list-h"></i></a>
+										<a href=""><span>女神联盟手游</span><i class="list-h"></i></a>
+										<a href=""><span>超时空机战</span></a>
+										<a href=""><span>一代宗师手游</span></a>
+										<a href=""><span>萌江湖</span></a>
+									</div>
+								</li>
+								<li>
+									<h2>休闲游戏</h2>
+									<div class="game-list">
+										<a href=""><span>夜与光</span><i class="list-n"></i></a>
+										<a href=""><span>僵尸别动队</span><i class="list-n"></i></a>
+										<a href=""><span>爱心推手</span><i class="list-h"></i></a>
+										<a href=""><span>布布合丁丁</span><i class="list-h"></i></a>
+										<a href=""><span>囧囧兔之弹弹兔</span></a>
+									</div>
+								</li>
+							</ul>
+							<a href="">查看更多</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- banner -->
+	<div class="banner-carousel">
+		<ul id="list">
+			<li><img src="image/105352655.jpg" alt=""><a href="#"></a></li>
+			<li><img src="image/143735704.jpg" alt=""><a href="#"></a></li>
+			<li><img src="image/105333333.jpg" alt=""><a href="#"></a></li>
+			<li><img src="image/174627664.jpg" alt=""><a href="#"></a></li>
+			<li><img src="image/105352655.jpg" alt=""><a href="#"></a></li>
+		</ul>
+		<div class="carousel-graph" id="graphs">
+			<ul>
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner-menu">
+		<div class="menu-left">
+			<h1><a href=""><img src="image/logo.png" alt=""></a></h1>
+			<ul>
+				<li><a href="">官网首页<i></i></a></li>
+				<li><a href="">新闻中心<i></i></a></li>
+				<li><a href="">游戏资料<i></i></a></li>
+				<li><a href="">游戏充值<i></i></a></li>
+				<li><a href="">客服中心<i></i></a></li>
+				<li><a href="">官方论坛<i></i></a></li>
+			</ul>
+			<div class="left-scane">
+				<img src="image/213547408.jpg" alt="">
+				<p>扫一扫关注微信领取礼包</p>
+				<a href=""></a>
+			</div>
+		</div>
+		<div class="menu-right">
+			<div class="right-start">
+				<div class="start-game">
+					<a href="" id="start_game"><img src="image/start.png" id="start" alt=""></a>
+				</div>
+				<div class="start-enroll">
+					<div class="enroll-login">
+						<div class="login-top">
+							<div class="top-left">
+								<div class="top-user">
+									<input type="text" placeholder="账号" name="user" id="user">
+									<i></i>
+								</div>
+								<div class="top-password">
+									<input type="password" placeholder="密码" name="password" id="password">
+									<i></i>
+								</div>
+							</div>
+							<div class="top-right">
+								<a href="javascript:;" id="enroll"></a>
+							</div>
+						</div>
+						<div class="login-mid">
+							<input type="checkbox" id="check">&nbsp;
+							<label for="check">自动登录</label>
+							<a href="">忘记密码?</a>
+						</div>
+						<div class="login-bottom">
+							<p>
+								<span>其它方式登录</span>
+								<a href="" title="以新浪账号登录"></a>
+								<a href="" title="以QQ账号登录"></a>
+								<a href="" title="微信"></a>
+							</p>
+						</div>
+					</div>
+					<div class="enroll-recharge">
+						<div class="recharge-free">
+							<a href="javascript:;" id="login2"><i></i></a>
+						</div>
+						<div class="recharge-game">
+							<a href=""><i></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-species">
+				<div class="species-left">
+					<a href="">阴山古楼</a>
+					<a href="">摸金校尉</a>
+					<a href="">寻龙摸金</a>
+					<a href="">谜海归巢</a>
+				</div>
+				<div class="species-right">
+					<ul>
+						<li><a href="">阴山古楼258服<span>火爆开启<i>></i></span></a></li>
+						<li><a href="">阴山古楼257服<span>火爆开启<i>></i></span></a></li>
+						<li><a href="">阴山古楼256服<span>火爆开启<i>></i></span></a></li>
+						<li><a href="">阴山古楼255服<span>火爆开启<i>></i></span></a></li>
+					</ul>
+					<div class="right-more">
+						<a href="">更多服务器</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="banner-change">
+		<div class="change-left">
+			<ul id="bigList">
+				<li><a href="#"><img src="image/183506693.png" alt=""></a></li>
+				<li><a href="#"><img src="image/172451439.png" alt=""></a></li>
+				<li><a href="#"><img src="image/123425975.png" alt=""></a></li>
+				<li><a href="#"><img src="image/183506693.png" alt=""></a></li>
+			</ul>
+			<ol id="bigGraphs">
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+			</ol>
+		</div>
+		<div class="change-right">
+			<div class="right-hot" id="hot">
+				<ul>
+					<li><a href="#" class="active">热点</a></li>
+					<li><a href="#">新闻</a></li>
+					<li><a href="#">活动</a></li>
+					<li><a href="#">公告</a></li>
+					<li><a href="#">媒体</a></li>
+				</ul>
+				<a href="#">更多+</a>
+			</div>
+			<div class="right-new" id="news">
+				<ul class="show">
+					<li class="hot">
+						<span></span>
+						<a href="#">盗墓笔记游戏端午特别活动</a>
+					</li>
+					<li>
+						<a href="" class="new">【公告】</a>
+						<a href="">盗墓笔记游戏阴山古楼262-267服6月3日火爆开启</a>
+						<span>6/2</span>
+					</li>
+					<li>
+						<a href="" class="new">【公告】</a>
+						<a href="">盗墓笔记6月2日所有大区瞬断更新公告</a>
+						<span>6/1</span>
+					</li>
+					<li>
+						<a href="" class="new">【公告】</a>
+						<a href=""> 《盗墓笔记》 游戏实名认证公告</a>
+						<span>5/13</span>
+					</li>
+					<li>
+						<a href="" class="new">【新闻】</a>
+						<a href="">三叔异次元探秘 《盗墓笔记》 奇楼惊现尸怪</a>
+						<span>5/18</span>
+					</li>
+				</ul>
+
+				<ul>
+					<li class="hot">
+						<span></span>
+						<a href="#">三叔异次元探秘《盗墓笔记》奇楼惊现尸怪</a>
+					</li>
+					<li>
+						<a href="" class="new">【新闻】</a>
+						<a href="">主播来势汹胸 《盗墓笔记》 电台全新改版</a>
+						<span>5/9</span>
+					</li>
+					<li>
+						<a href="" class="new">【新闻】</a>
+						<a href="">寻回小哥记忆 《盗墓笔记》玩家脑内战直播</a>
+						<span>5/4</span>
+					</li>
+					<li>
+						<a href="" class="new">【新闻】</a>
+						<a href="">盗墓笔记游戏阴山古楼48-53服5月2日火爆开启</a>
+						<span>5/1</span>
+					</li>
+					<li>
+						<a href="" class="new">【新闻】</a>
+						<a href="">张起灵未来猜想篇 《盗墓笔记》玩家成记忆大师</a>
+						<span>4/25</span>
+					</li>
+				</ul>
+
+				<ul>
+					<li class="hot">
+						<span></span>
+						<a href="#">盗墓笔记游戏端午特别活动</a>
+					</li>
+					<li>
+						<a href="" class="new">【活动】</a>
+						<a href="">盗墓笔记游戏鉴宝言欢</a>
+						<span>5/25</span>
+					</li>
+					<li>
+						<a href="" class="new">【活动】</a>
+						<a href="">盗墓笔记游戏百乐送福</a>
+						<span>5/22</span>
+					</li>
+					<li>
+						<a href="" class="new">【活动】</a>
+						<a href="">盗墓笔记游戏浪漫情人季</a>
+						<span>5/18</span>
+					</li>
+					<li>
+						<a href="" class="new">【活动】</a>
+						<a href="">盗墓笔记游戏月中浪淘沙</a>
+						<span>5/15</span>
+					</li>
+				</ul>
+
+				<ul>
+					<li class="hot">
+						<span></span>
+						<a href="#">盗墓笔记游戏阴山古楼262-267服6月3日火爆开启</a>
+					</li>
+					<li>
+						<a href="" class="new">【公告】</a>
+						<a href="">盗墓笔记游戏阴山古楼259-261服6月2日火爆开启</a>
+						<span>6/1</span>
+					</li>
+					<li>
+						<a href="" class="new">【公告】</a>
+						<a href="">盗墓笔记6月2日所有大区瞬断更新公告</a>
+						<span>6/1</span>
+					</li>
+					<li>
+						<a href="" class="new">【公告】</a>
+						<a href="">盗墓笔记游戏阴山古楼256-258服6月1日火爆开启</a>
+						<span>5/31</span>
+					</li>
+					<li>
+						<a href="" class="new">【公告】</a>
+						<a href="">盗墓笔记游戏阴山古楼222-230服5月28日火爆开启</a>
+						<span>5/27</span>
+					</li>
+				</ul>
+
+				<ul>
+					<li class="hot">
+						<span></span>
+						<a href="#">国民影帝摸金而来265G专题活动海量福利</a>
+					</li>
+					<li>
+						<a href="" class="new">【媒体】</a>
+						<a href="">《盗墓笔记》首个明星资料片摸金校尉上线</a>
+						<span>11/15</span>
+					</li>
+					<li>
+						<a href="" class="new">【媒体】</a>
+						<a href="">国民影帝摸金而来07073专题活动海量福利</a>
+						<span>11/12</span>
+					</li>
+					<li>
+						<a href="" class="new">【媒体】</a>
+						<a href="">黄渤加盟游族《盗墓笔记》60亿影帝成代言人</a>
+						<span>11/3</span>
+					</li>
+					<li>
+						<a href="" class="new">【媒体】</a>
+						<a href="">天宫宝藏遭千年浩劫 《盗墓笔记》疯狂通缉淘金者</a>
+						<span>10/18</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- area -->
+	<div class="area">
+		<div class="area-feature">
+			<div class="feature-left">
+				<div class="title">特色专区</div>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="image/143424475.png" alt="">
+							<div class="txt">
+								<p>黄渤专区</p>
+								<p>明星福利助你<br>开棺摸金</p>
+							</div>
+							<p></p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/151621501.png" alt="">
+							<div class="txt">
+								<p>主播专区</p>
+								<p>甜美教练教你<br>盗墓夺宝</p>
+							</div>
+							<p></p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/151646666.png" alt="">
+							<div class="txt">
+								<p>稻米专区</p>
+								<p>丰富的同人<br>相关内容</p>
+							</div>
+							<p></p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/153335255.png" alt="">
+							<div class="txt">
+								<p>微端下载</p>
+								<p>畅爽游戏超越想象<br></p>
+							</div>
+							<p></p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/153417109.png" alt="">
+							<div class="txt">
+								<p>游戏资料</p>
+								<p>为新手指点迷津<br></p>
+							</div>
+							<p></p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/153442106.png" alt="">
+							<div class="txt">
+								<p>精品攻略</p>
+								<p>高手速成之路<br></p>
+							</div>
+							<p></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="feature-right">
+				<div class="title">福利专区</div>
+				<div class="right-weal">
+					<div class="weal-top" id="weal">
+						<ul>
+							<li><a href="" class="active">新手礼包</a><span></span></li>
+							<li><a href="">VIP特权</a><span></span></li>
+							<li><a href="">VIP客服</a><span></span></li>
+						</ul>
+					</div>
+					<div class="weal-bottom" id="gift">
+						<div class="bottom-gift show">
+							<img src="image/121214160.png" alt="">
+							<a href=""></a>
+							<img src="image/231357196.png" class="location" alt="">
+						</div>
+						<div class="bottom-gift">
+							<img src="image/205102940.png" alt="">
+							<a href=""></a>
+						</div>
+						<div class="bottom-gift">
+							<img src="image/213657902.png" alt="">
+							<a href=""></a>
+							<img src="image/213740153.png" class="location" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="area-star">
+			<div class="title">明星专区</div>
+			<ul class="clearfix">
+				<li>
+					<a href="">
+						<img src="image/142325436.jpg" alt="">
+						<span>国民影帝，摸金而来<br> <i>《盗墓笔记》 页游代言人-黄渤</i></span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="image/222656183.jpg" alt="">
+						<span>南派三叔正版授权<br> <i>《盗墓笔记》 三叔正版授权页游</i></span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="image/105329400.jpg" alt="">
+						<span>极限挑战，有胆来战<br> <i>百万现金悬赏最强摸金校尉</i></span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="image/223304316.jpg" alt="">
+						<span>南派三叔，独家填坑<br> <i>那些年，你错过的秘密</i></span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="image/142447255.jpg" alt="">
+						<span>明星版本，摸金校尉<br> <i>黄渤版摸金校尉来袭</i></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- data -->
+	<div class="data-introduce clearfix">
+		<div class="introduce-left">
+			<div class="left-video">
+				<a href="">
+					<img src="image/143517561.jpg" alt="">
+					<p>视频中心</p>
+					<p> 《盗墓笔记》 代言人视频</p>
+					<span></span>
+				</a>
+			</div>
+			<div class="left-wallpaper">
+				<a href="">
+					<img src="image/231659343.jpg" alt="">
+					<p>游戏壁纸</p>
+					<p>西沙海底探宝</p>
+					<span>+查看更多</span>
+				</a>
+			</div>
+			<div class="left-guide">
+				<div class="guide-data">
+					<span>游戏资料</span>
+					<a href="">更多+</a>
+				</div>
+				<div class="guide-introduce">
+					<div class="introduce-game" id="guide">
+						<ul>
+							<li><a href="" class="active">游戏特色</a></li>
+							<li><a href="">新手指南</a></li>
+							<li><a href="">系统介绍</a></li>
+						</ul>
+					</div>
+					<div class="introduce-detail" id="detail">
+						<div class="detail-txt show">
+							<a href="">寻找文锦</a>
+							<a href="">个性衣橱</a>
+							<a href="">剧情副本</a>
+							<a href="">守护无邪</a>
+							<a href="">坐骑详解</a>
+						</div>
+						<div class="detail-txt">
+							<a href="">注册账号</a>
+							<a href="">创建角色</a>
+							<a href="">微端下载</a>
+							<a href="">登录游戏</a>
+							<a href="">故事背景</a>
+							<a href="">职业介绍</a>
+							<a href="">快捷键位</a>
+							<a href="">基础操作</a>
+						</div>
+						<div class="detail-txt">
+							<a href="">伙伴</a>
+							<a href="">姻缘系统</a>
+							<a href="">剧情副本</a>
+							<a href="">坐骑详解</a>
+							<a href="">神器系统</a>
+							<a href="">伙伴系统</a>
+							<a href="">锻造系统</a>
+							<a href="">古墓寻宝</a>
+							<a href="">图鉴系统</a>
+							<a href="">阴兵入侵</a>
+							<a href="">神武资料</a>
+							<a href="">通灵系统1</a>
+							<a href="">通灵系统2</a>
+							<a href="">宠物系统2</a>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="introduce-mid">
+			<div class="mid-person">
+				<div class="person-name">
+					<div class="name-differ" id="differ">
+						<ul id="moves">
+							<li><a href="" class="active">张启山</a></li>
+							<li><a href="">张起灵</a></li>
+							<li><a href="">吴邪</a></li>
+							<li><a href="">陈文锦</a></li>
+							<li><a href="">王胖子</a></li>
+							<li><a href="">潘子</a></li>
+							<li><a href="">二月红</a></li>
+							<li><a href="">阿宁</a></li>
+						</ul>
+					</div>					
+					<a href="javascript:;" class="prev" id="prev"></a>
+					<a href="javascript:;" class="next" id="next"></a>
+					<span></span>
+				</div>
+				<div class="person-detail" id="pList">
+					<div class="person-list show">
+						<div class="detail-look">
+							<div class="look-star star1">
+								<img src="image/195836213.jpg" alt="">
+								<span></span>
+							</div>
+							<a href="">查看详情<i></i></a>
+						</div>
+						<img src="image/160029241.png" alt="">
+					</div>
+					<div class="person-list">
+						<div class="detail-look">
+							<div class="look-star star2">
+								<img src="image/195738794.jpg" alt="">
+								<span></span>
+							</div>
+							<a href="">查看详情<i></i></a>
+						</div>
+						<img src="image/160002553.png" alt="">
+					</div>
+					<div class="person-list">
+						<div class="detail-look">
+							<div class="look-star star3">
+								<img src="image/195654233.jpg" alt="">
+								<span></span>
+							</div>
+							<a href="">查看详情<i></i></a>
+						</div>
+						<img src="image/155932707.png" alt="">
+					</div>
+					<div class="person-list">
+						<div class="detail-look">
+							<div class="look-star star4">
+								<img src="image/195631987.jpg" alt="">
+								<span></span>
+							</div>
+							<a href="">查看详情<i></i></a>
+						</div>
+						<img src="image/155856319.png" alt="">
+					</div>
+					<div class="person-list">
+						<div class="detail-look">
+							<div class="look-star star5">
+								<img src="image/195606404.jpg" alt="">
+								<span></span>
+							</div>
+							<a href="">查看详情<i></i></a>
+						</div>
+						<img src="image/155835655.png" alt="">
+					</div>
+					<div class="person-list">
+						<div class="detail-look">
+							<div class="look-star star6">
+								<img src="image/195541002.jpg" alt="">
+								<span></span>
+							</div>
+							<a href="">查看详情<i></i></a>
+						</div>
+						<img src="image/155810943.png" alt="">
+					</div>
+					<div class="person-list">
+						<div class="detail-look">
+							<div class="look-star star7">
+								<img src="image/195807403.jpg" alt="">
+								<span></span>
+							</div>
+							<a href="">查看详情<i></i></a>
+						</div>
+						<img src="image/182247311.png" alt="">
+					</div>
+					<div class="person-list">
+						<div class="detail-look">
+							<div class="look-star star8">
+								<img src="image/190043396.jpg" alt="">
+								<span></span>
+							</div>
+							<a href="">查看详情<i></i></a>
+						</div>
+						<img src="image/185751442.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="mid-research" id="play">
+				<div class="research-plays">
+					<span>玩家攻略</span>
+					<a href="">更多攻略+</a>
+				</div>
+				<ul>
+					<li><a href="" class="active">热点推荐</a><i></i></li>
+					<li><a href="">基础攻略</a><i></i></li>
+					<li><a href="">玩法攻略</a><i></i></li>
+				</ul>
+				<div class="research-detail" id="research">
+					<ol class="show">
+						<li>
+							<a href="">盗墓笔记西沙海底玩法攻略</a>
+							<span>4/10</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记阵营系统玩法攻略</a>
+							<span>3/27</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记天星风水玩法攻略</a>
+							<span>3/24</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记十二兽首系统攻略</a>
+							<span>2/23</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记精炼与洗炼</a>
+							<span>2/4</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记名人殿玩法攻略</a>
+							<span>1/21</span>
+						</li>
+					</ol>
+					<ol>
+						<li>
+							<a href="">盗墓笔记阵营系统玩法攻略</a>
+							<span>3/27</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记精炼与洗炼</a>
+							<span>2/4</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记护宝勋章玩法全解攻略</a>
+							<span>3/24</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记红色图鉴入门攻略</a>
+							<span>1/13</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记配饰升星攻略</a>
+							<span>1/6</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记配饰升星攻略</a>
+							<span>1/5</span>
+						</li>
+					</ol>
+					<ol>
+						<li>
+							<a href="">盗墓笔记西沙海底玩法攻略</a>
+							<span>4/10</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记天星风水玩法攻略</a>
+							<span>3/24</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记十二兽首系统攻略</a>
+							<span>2/23</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记名人殿玩法攻略</a>
+							<span>1/21</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记起灵大赛全攻略</a>
+							<span>1/16</span>
+						</li>
+						<li>
+							<a href="">盗墓笔记极限挑战赛玩法攻略</a>
+							<span>1/12</span>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="introduce-right">
+			<p>大家都在说</p>
+			<span></span>
+			<div class="right-comment" id="comment_list"></div>
+			<textarea  id="textArea" cols="30" rows="10"></textarea>
+			<a href="javascript:;" id="sendTxt">我也说两句</a>
+		</div>
+	</div>
+	<!-- verison -->
+	<div class="verison-process">
+		<div class="process-title">
+			<span>版本历程</span>
+			<a href="#">更多+</a>
+		</div>
+		<div class="process-content">
+			<div class="content-move">
+				<ul id="listMove">
+					<li>
+						<a href=""><img src="image/162135477.png" alt=""></a>
+						<p><a href="">奇门遁甲</a></p>
+						<span>2017.03.20</span>
+					</li>
+					<li>
+						<a href=""><img src="image/203420354.png" alt=""></a>
+						<p><a href="">古城秘境</a></p>
+						<span>2016.12.13</span>
+					</li>
+					<li>
+						<a href=""><img src="image/224906080.png" alt=""></a>
+						<p><a href="">摸金校尉</a></p>
+						<span>2016.11.15</span>
+					</li>
+					<li>
+						<a href=""><img src="image/225505039.png" alt=""></a>
+						<p><a href="">天宫探宝</a></p>
+						<span>2016.10.18</span>
+					</li>
+					<li>
+						<a href=""><img src="image/224337098.png" alt=""></a>
+						<p><a href="">起灵大赛</a></p>
+						<span>2016.09.29</span>
+					</li>
+					<li>
+						<a href=""><img src="image/213620347.png" alt=""></a>
+						<p><a href="">机关密室</a></p>
+						<span>2016.09.10</span>
+					</li>
+					<li>
+						<a href=""><img src="image/180750655.png" alt=""></a>
+						<p><a href="">南北之争</a></p>
+						<span>2016.08.31</span>
+					</li>
+					<li>
+						<a href=""><img src="image/172431555.png" alt=""></a>
+						<p><a href="">全网霸屏公测</a></p>
+						<span>2016.08.05</span>
+					</li>
+					<li>
+						<a href=""><img src="image/222548465.png" alt=""></a>
+						<p><a href="">开启限量内测</a></p>
+						<span>2016.07.13</span>
+					</li>
+					<li>
+						<a href=""><img src="image/224102491.png" alt=""></a>
+						<p><a href="">开启不删档封测</a></p>
+						<span>2016.07.04</span>
+					</li>
+					<li>
+						<a href=""><img src="image/165825563.png" alt=""></a>
+						<p><a href="">首次限量封测</a></p>
+						<span>2016.06.13</span>
+					</li>
+				</ul>
+				<a href="" class="prev" id="mLeft"></a>
+				<a href="" class="next" id="mRight"></a>
+			</div>
+		</div>
+	</div>
+	<!-- service -->
+	<div class="custom-service clearfix">
+		<div class="service-left">
+			<span>客服中心</span>
+			<img src="image/phone.png" alt="">
+			<div class="left-online">
+				<a href="">在线客服</a>
+				<a href="">家长监控系统</a>
+			</div>
+		</div>
+		<div class="service-mid">
+			<span>合作媒体</span>
+			<div class="mid-together">
+				<a href="">新浪游戏</a>
+				<a href="">腾讯游戏</a>
+				<a href="">更多+</a>
+			</div>
+		</div>
+		<div class="service-right">
+			<span>友情链接</span>
+			<div class="right-link" id="link">
+				<a href="" target="_blank">三十六计</a>
+				<a href="" target="_blank">卓不凡</a>
+				<a href="" target="_blank">军师联盟</a>
+				<a href="" target="_blank">啪嗒动漫</a>
+				<a href="" target="_blank">武神赵子龙</a>
+				<a href="" target="_blank">炉石攻略</a>
+				<a href="" target="_blank">最新手机游戏</a>
+				<a href="" target="_blank">小游戏大全</a>
+				<a href="" target="_blank">动漫FM</a>
+				<a href="" target="_blank">FM2015</a>
+				<a href="" target="_blank">5G游戏网</a>
+				<a href="" target="_blank">网游排行榜</a>
+				<a href="" target="_blank">Haosf</a>
+				<a href="" target="_blank">9199游戏资讯</a>
+				<a href="" target="_blank">小皮游戏论坛</a>
+				<a href="" target="_blank">王者荣耀</a>
+				<a href="" target="_blank">穿越火线</a>
+				<a href="" target="_blank">影之刃2</a>
+				<a href="" target="_blank">40407盗墓笔记攻略</a>
+				<a href="" target="_blank">刀剑乱舞online</a>
+				<a href="javascript:;" id="more">更多+</a>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<div class="footer-advice">
+			<span>健康游戏忠告 ： </span>
+			<span>抵制不良游戏</span> 
+			<span>拒绝盗版游戏</span> 
+			<span>注意自我保护</span> 
+			<span>谨防受骗上当</span> 
+			<span>适度游戏益脑</span> 
+			<span>沉迷游戏伤身</span> 
+			<span>合理安排时间</span> 
+			<span>享受健康生活</span>
+		</div>
+		<div class="footer-message clearfix">
+			<div class="message-left">
+				<a href=""><img src="image/logo_di_youzu.png" alt=""></a>
+				<a href=""><img src="image/logo_di_studio.png" alt=""></a>
+			</div>
+			<div class="message-right">
+				<p>
+					<a href="">关于游族</a>
+					<a href="">游族无线</a>
+					<a href="">联系我们</a>
+					<a href="">加入我们</a>
+					<a href="">客服中心</a>
+					<a href="">商务合作</a>
+					<a href="">用户许可协议</a>
+				</p>
+				<p>
+					<span>推荐游戏：</span>
+					<a href="">少年三国志</a>
+					<a href="">大皇帝</a>
+					<a href="">三十六计</a>
+					<a href="">刀剑乱舞</a>
+					<a href="">盗墓笔记</a>
+					<a href="">少年西游记</a>
+					<a href="">狂暴之翼</a>
+				</p>
+				<p>
+					<a href="">备案号：310104100043687</a>
+					<a href="">沪B2-20090105号</a>
+					<a href="">沪ICP备09058784号</a>
+					<a href="">沪网文[2015]0819-219</a>
+					<a href="">新出网证(沪)字33号</a>
+					<span>新出审字[2013]893号</span>
+					<span>文网游备字[2013]W-RPG155号</span>
+				</p>
+				<p>上海游族信息技术有限公司 ©版权所有</p>
+			</div>
+		</div>
+	</div>
+	<script src="js/dmbj.js"></script>
+</body>
+</html>
